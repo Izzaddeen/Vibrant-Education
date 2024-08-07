@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.card-layout {
+    padding: 30px;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.custom-card {
+    border-radius: 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center; 
+}
+.custom-card h2, .custom-card p {
+    color: #2d552e;
+}
+.custom-card p {
+    font-size: 1rem;
+}
+.custom-card:hover p {
+    color: white;
+}
+.custom-button, .consult-button {
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    color: white;
+    text-align: center; 
+}
+.custom-button {
+    background-color: #2d552e;
+}
+.custom-button:hover {
+    background-color: #243b24;
+}
+.custom-card:first-child {
+    background-color: white;
+    color: #2d552e;
+}
+.custom-card:first-child:hover {
+    background-color: #2d552e;
+    color: white;
+}
+.custom-card:first-child .custom-button {
+    background-color: #2d552e;
+    font-weight: 600;
+}
+.custom-card:first-child:hover .custom-button {
+    background-color: #b58235;
+    color: #2d552e;
+    font-weight: 600;
+}
+.card-content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+}
+.consult-button {
+    background-color: #d49a3e;
+} 
+.consult-button:hover {
+    background-color: #b58235;
+} 
+
+
+
