@@ -300,21 +300,28 @@
     }
 
     .pencil {
-        height: 60%;
+        height: 100%;
         top: 55%;
-        right: 15%;
+        left: 20%;
     }
 
     .school {
-        height: 60%;
+        height: auto;
         top: 5%;
-        right: 10%;
+        left: 0;
     }
 
     .girl {
-        height: 200%;
-        left: 30%;
-        top: -10%;
+        height: 150%;
+        left: 90%;
+        top: 5%;
+    }
+    .btn-div{
+        padding-left: 20%;
+    }
+    .home-btn{
+        padding: 0.5rem 1.25rem;
+        font-size: 1rem;
     }
 }
 
