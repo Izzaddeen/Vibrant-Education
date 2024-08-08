@@ -74,7 +74,7 @@
 @media (min-width: 2560px) {
     .girl {
         position: absolute;
-        height: 388%;
+        height: 488%;
         left: 40%;
         top: -75%;
     } 
@@ -86,7 +86,7 @@
     }
     
 }
-@media (max-width: 1440px){
+/* @media (max-width: 1440px){
     .girl {
         position: absolute;
         height: 108%;
@@ -136,4 +136,4 @@
         font-size: 0.8rem;
         border: none;
     }
-}
+} */
