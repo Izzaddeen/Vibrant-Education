@@ -240,7 +240,7 @@
     }
     .pencils-container,
     .girl-container {
-        display: block;
+        display: none;
     }
 
     .home-col {
