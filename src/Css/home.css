@@ -83,58 +83,46 @@
     }
     
 }
- @media (min-width: 1440px){
+ @media (min-width: 1487px){
     .school{
         position: absolute;
         left: -2%;
     }
     .girl {
         position: absolute;
-        height: 108%;
-        left: 24%;
-        top: 0%;
+        height: 200%;
+        left: 10%;
+        top: 10%;
     } 
     .pencil{
         position: absolute;
         height: 60%;
-        top: 61%;
-        right: 25%;
+        top: 58.5%;
+        left: 35%;
     }
     
 }
-/*@media (max-width:1024px){
+@media (min-width:1024px){
 
-    .school{
-        position: absolute;
-        height: 20%;
+    .home-1, .home-h2{
+        font-size: 1.8rem;
     }
-    .girl {
-        position: absolute;
-        height: 136%;
-        left: 130%;
-        top: 18%;
+    .home-btn{
+        font-size: 0.8rem;
     }
     .pencil{
-        position: absolute;
+        left: 35%;
+        top: 61%;
         height: 60%;
-        top: 68%;
-        right: 33%;
     }
-    .home-h1,
-    .home-h2 {
-    font-size: 2rem;
-    text-align: center;
-    letter-spacing: 1px;
-    padding-left: 2%;
+    .school{
+        position: absolute;
+        height: 15%;
+        left: 22%;
     }
-    .btn-div {
-        display: flex;
-        justify-content: left;
-        gap: 2%;
+    .girl{
+        height: 178%;
+        left: 60%;
+        top: 10%;
     }
-    .home-btn {
-        border-radius: 30px;
-        font-size: 0.8rem;
-        border: none;
-    }
-} */
+} 
