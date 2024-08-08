@@ -12,8 +12,6 @@ import WhyChooseUs from "./whychooseus";
 import ClientSays from "./clientsays";
 import ContactForm from "./contact";
 
-
-
 const Home = () => { 
     return (
         <>

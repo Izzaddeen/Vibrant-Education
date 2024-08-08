@@ -71,3 +71,69 @@
 
 
 
+@media (max-width: 2560px) {
+    .girl {
+        position: absolute;
+        height: 388%;
+        left: 40%;
+        top: -75%;
+    } 
+    .pencil{
+        position: absolute;
+        height: 60%;
+        top: 51%;
+        right: 30%;
+    }
+    
+}
+@media (max-width: 1440px){
+    .girl {
+        position: absolute;
+        height: 188%;
+        left: 24%;
+        top: 0%;
+    } 
+    .pencil{
+        position: absolute;
+        height: 60%;
+        top: 61%;
+        right: 25%;
+    }
+    
+}
+@media (max-width:1024px){
+
+    .school{
+        position: absolute;
+        height: 20%;
+    }
+    .girl {
+        position: absolute;
+        height: 136%;
+        left: 130%;
+        top: 18%;
+    }
+    .pencil{
+        position: absolute;
+        height: 60%;
+        top: 68%;
+        right: 33%;
+    }
+    .home-h1,
+    .home-h2 {
+    font-size: 2rem;
+    text-align: center;
+    letter-spacing: 1px;
+    padding-left: 2%;
+    }
+    .btn-div {
+        display: flex;
+        justify-content: left;
+        gap: 2%;
+    }
+    .home-btn {
+        border-radius: 30px;
+        font-size: 0.8rem;
+        border: none;
+    }
+}
