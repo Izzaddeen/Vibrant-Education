@@ -68,7 +68,7 @@
     left: 20%;
     top: -10%;
 } 
-/* @media (min-width: 2560px) {
+@media (min-width: 2560px) {
     .girl {
         position: absolute;
         height: 488%;
@@ -82,7 +82,7 @@
         right: 30%;
     }
     
-} */
+}
  /* @media (min-width: 1487px){
     .school{
         position: absolute;
