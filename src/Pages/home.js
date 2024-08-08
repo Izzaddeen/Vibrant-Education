@@ -45,12 +45,12 @@ const Home = () => {
                 </Row>
             </Container>
         </div>
-        {/* <About/>
+        <About/>
         <Services/>
         <Youtube/>
         <WhyChooseUs/>
         <ClientSays/>
-        <ContactForm/> */}
+        <ContactForm/>
 
         </>
     );
