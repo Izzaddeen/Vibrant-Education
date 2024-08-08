@@ -68,9 +68,6 @@
     left: 20%;
     top: -10%;
 } 
-
-
-
 @media (min-width: 2560px) {
     .girl {
         position: absolute;
@@ -86,7 +83,11 @@
     }
     
 }
-/* @media (max-width: 1440px){
+ @media (min-width: 1440px){
+    .school{
+        position: absolute;
+        left: -2%;
+    }
     .girl {
         position: absolute;
         height: 108%;
@@ -101,7 +102,7 @@
     }
     
 }
-@media (max-width:1024px){
+/*@media (max-width:1024px){
 
     .school{
         position: absolute;
