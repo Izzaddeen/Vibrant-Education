@@ -1,4 +1,4 @@
- @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+ /* @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 * {
     box-sizing: border-box;
@@ -82,7 +82,7 @@
         right: 30%;
     }
     
-}
+} */
  /* @media (min-width: 1487px){
     .school{
         position: absolute;
@@ -126,3 +126,201 @@
         top: 10%;
     }
 }  */
+
+
+
+
+/* Base Styles */
+.home-bg {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-h1,
+.home-h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.home-h1 {
+    color: #042523;
+}
+
+.home-h2 {
+    color: #ca9442;
+    text-shadow: 0 0 5px #000;
+}
+
+.home-btn {
+    border-radius: 30px;
+    font-size: 1.2rem;
+    border: none;
+    padding: 0.75rem 1.5rem;
+}
+
+.btn-div {
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    margin-top: 1rem;
+}
+
+.pencils-container, .girl-container {
+    position: relative;
+}
+
+.pencil, .girl {
+    position: absolute;
+}
+
+.pencil {
+    height: 45%;
+}
+
+.girl {
+    height: 178%;
+    left: 20%;
+    top: -20%;
+}
+
+@media (max-width: 320px) {
+    .btn-div {
+        display: block;
+    }
+    .school,
+    .pencil {
+        display: none;
+    }
+}
+
+@media (min-width: 2560px) {
+    .girl {
+        height: 488%;
+        left: 40%;
+        top: -75%;
+    } 
+    .pencil{
+        height: 60%;
+        top: 51%;
+        right: 30%;
+    }
+}
+
+
+
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .home-h1,
+    .home-h2 {
+        font-size: 1.8rem;
+        text-align: left;
+    }
+
+    .home-h1 {
+        margin-bottom: 0.5rem;
+    }
+
+    .btn-div {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pencils-container,
+    .girl-container {
+        display: none;
+    }
+
+    .home-col {
+        text-align: center;
+    }
+}
+
+
+
+
+
+/* Tablet Styles */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .home-h1,
+    .home-h2 {
+        font-size: 2.2rem;
+        text-align: center;
+    }
+
+    .btn-div {
+        justify-content: center;
+    }
+
+    .pencils-container,
+    .girl-container {
+        display: block;
+    }
+
+    .girl {
+        height: 150%;
+        left: 25%;
+        top: -15%;
+    }
+
+    .pencil {
+        height: 45%;
+        top: 60%;
+        right: 20%;
+    }
+
+    .school {
+        height: 45%;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+}
+
+
+
+/* Desktop Styles */
+@media (min-width: 1024px) {
+    .home-h1,
+    .home-h2 {
+        font-size: 2.5rem;
+    }
+
+    .pencil {
+        height: 60%;
+        top: 55%;
+        right: 15%;
+    }
+
+    .school {
+        height: 60%;
+        top: 5%;
+        right: 10%;
+    }
+
+    .girl {
+        height: 200%;
+        left: 30%;
+        top: -10%;
+    }
+}
+
+
+
+
+/* Ultra-Wide Screens */
+@media (min-width: 2560px) {
+    .girl {
+        height: 488%;
+        left: 40%;
+        top: -75%;
+    } 
+    .pencil {
+        height: 60%;
+        top: 51%;
+        right: 30%;
+    }
+}
